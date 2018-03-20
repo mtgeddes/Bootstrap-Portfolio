@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- I manually added this. My understanding is limited on what this does, but my assumption is that it makes it compatible with internet explorer -->
   
     <title>Matthew Geddes | Portfolio</title>
-   
- 
+    
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Latest compiled and minified CSS -->
@@ -18,8 +17,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<!-- BEGIN NAV -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -29,20 +30,72 @@
             <a class="navbar-left" id="matthewgeddes" href="index.html">Matthew Geddes</a>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="buttons" id="outterbuttons" href="index.html">About</a></li>
+                    <li><a class="buttons" id="leftright" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="buttons" id="outterbuttons" href="contact.html">Contact</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
     </nav>
+<!-- END NAV -->
+
+<!-- BEGIN CONTENT -->
+<div class="container">
+    <div class="row content">
+        <div class="col-md-8" id="background">
+            <div class="page-header">
+                <h1 class="bodyh1">About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p><img src="http://placehold.it/150x150" alt="Placeholder" id="selfpicture">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
+                        eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
+                        at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
+                        eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
+                        at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
+                    </p>
+                    <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
+                            eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
+                            at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
+                        </p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 background" id="panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- END CONTENT -->
+
+<!-- BEGIN FOOTER -->    
+    <footer class="footer">
+      <div class="container">
+        <p id="copyright">Place sticky footer content here.</p>
+      </div>
+    </footer>
+<!-- END FOOTER --> 
 
 
-
-
-
+<!-- BEGIN SCRIPTS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-        
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- END SCRIPTS --> 
 </body>
 </html>
