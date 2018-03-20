@@ -1,0 +1,61 @@
+
+
+
+/***** ELEMENTS *****/
+
+html, body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../imgs/concrete-texture.png");
+    color: #777777;
+    margin: 0px;
+    font-size: 1.0em;
+}
+
+ul {
+    padding-top: 20px;
+}
+
+
+
+
+/***** CLASSES *****/
+
+.container {
+    max-width: 960px;
+}
+
+.navbar, .navbar-default, .navbar-fixed-top {
+    border-bottom: 2px solid #cccccc !important;
+}
+
+/***** IDS *****/
+
+#matthewgeddes {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 25px;
+    float: left;
+    margin: 0px;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+#matthewgeddes {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+#matthewgeddes:hover {
+    text-shadow: 1px 1px 2px black;
+}
+
+.nabar-right:link, .nabar-right:visited {
+    text-decoration: none !important;
+    color: #777777 !important;
+}
+
+.nabar-right:hover {
+    text-decoration: underline !important;
+}
