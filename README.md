@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-This is Bootstrap-Portfolio
+# Example Bootstrap-Portfolio
+This is an example Bootstrap-Portfolio
